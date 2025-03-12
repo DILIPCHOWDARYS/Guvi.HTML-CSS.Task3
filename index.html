@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination-User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Pagination-USER Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+    
+            <tbody id="usertable"></tbody>
+        </table>
+    
+        <div class="pagination">
+            <button onclick="firstpage()">First</button>
+            <button onclick="previouspage()">Previous</button>
+            <span id="paginfo"></span>
+            <button onclick="nextpage()">Next</button>
+            <button onclick="lastpage()">Last</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
