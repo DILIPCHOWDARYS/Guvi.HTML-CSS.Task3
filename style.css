@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin:auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+}
+
+.data-container{
+    margin: 20px 0;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.Pagination{
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+button:disabled{
+    background: #ccc;
+}
